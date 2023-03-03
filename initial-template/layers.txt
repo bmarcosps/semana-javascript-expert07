@@ -1,0 +1,8 @@
+index.js -> chamar todo o resto
+services -> logica de negocio, chamada externa
+controllers -> intermediario entre services e views
+factories -> quem importa dependencias e cria objetos para fazer chamadas
+views -> toda interação com o DOM (HTML)
+
+
+workers --> toda logica pesada (CPU), chama as regras de negocio da service
